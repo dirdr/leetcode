@@ -1,5 +1,5 @@
 
-# solutions to problems coming from the leetCode website
-# java
+# @author Adrien PELFRESNE
+# ESIEE 2020-2021
 
 
