@@ -8,7 +8,6 @@ impl Solution {
                 Some(val) => {
                     let diff: i32 = i as i32 - *val;
                     if i32::abs(diff) <= k && i as i32 != *val { return true; }
-                
                 }
                 None => {}
             }
