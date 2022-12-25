@@ -1,4 +1,4 @@
-se std::collections::HashMap;
+use std::collections::HashMap;
 
 impl Solution {
     pub fn array_rank_transform(mut arr: Vec<i32>) -> Vec<i32> {
