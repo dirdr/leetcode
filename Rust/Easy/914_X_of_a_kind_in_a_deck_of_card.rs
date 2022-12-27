@@ -21,17 +21,15 @@ impl Solution {
             .iter()
             .filter(|el| *el.1 != 1)
             .min_by(|a, b| {a.1.cmp(b.1)}).unwrap().1;
-        let mut result = true;
         for value in Solution::get_div(&min).iter() {
             let mut flag = true;
             map.iter().for_each(|key_value| {
                 if *key_value.1 % value != 0 {
                     flag = false;
                 }
-                if (flag == false) {result = false}
             });
             if flag == true {return true}
         }
-        result
+        false
     }
 }
