@@ -12,6 +12,8 @@ impl Solution {
         part.sort_by(|a, b| {   
             map.get(&a).unwrap().cmp(map.get(&b).unwrap())  
         });
-        part.into_iter().chain(other).collect::<String>()
+        part.into_iter()
+            .chain(other)
+            .collect::<String>()
     }
 }
