@@ -9,6 +9,9 @@ This repository aims to help me find previously implemented algorithms, as well 
 - [ ] Properly learning BT
 - [ ] Being not horrible in contests
 
+## Challenge
+_Starting from the 2 of August 2024, I will try to solve daily problems for one year straight, without interruptions_
+
 # Useful resources
 - [neetcode roadmap](https://neetcode.io/roadmap)
 - [array to binary tree viewer](https://eniac00.github.io/btv/) _to visualize Leetcode binary tree format_
