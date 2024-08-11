@@ -10,7 +10,7 @@ This repository aims to help me find previously implemented algorithms, as well 
 - [ ] Being not horrible in contests
 
 ## Challenge
-_Starting from the 2 of August 2024, I will try to solve daily problems for one year straight.
+Starting from the 2 of August 2024, I will try to solve daily problems for one year straight.
 
 # Useful resources
 - [neetcode roadmap](https://neetcode.io/roadmap)
