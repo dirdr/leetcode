@@ -1,15 +1,15 @@
-use std::collections::HashMap;
-
 impl Solution {
     pub fn is_anagram(s: String, t: String) -> bool {
-        let mut ms = HashMap::new();
-        let mut mt = HashMap::new();
-        for ch in s.chars() {
-            ms.entry(ch).and_modify(|e| *e += 1).or_insert(1);
+        if s.len() != t.len() {
+            return false;
         }
-        for ch in t.chars() {
-            mt.entry(ch).and_modify(|e| *e += 1).or_insert(1);
-        } 
-        ms == mt
+        let mut count = vec![0; 26];
+        for c in s.chars() {
+            count[(c as u8 - b'a') as usize] += 1;
+        }
+        for c in t.chars() {
+            count[(c as u8 - b'a') as usize] -= 1;
+        }
+        count.iter().all(|&e| e == 0)
     }
 }
