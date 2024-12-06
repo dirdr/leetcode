@@ -5,7 +5,7 @@ impl Solution {
         let banned: HashSet<i32> = HashSet::from_iter(banned.into_iter());
         let mut sum = 0;
         (1..=n).filter(|n| !banned.contains(n)).take_while(|n| {
-          w  sum += n;
+            sum += n;
             sum <= max_sum
         }).count() as i32
     }
