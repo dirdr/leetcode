@@ -12,22 +12,21 @@ impl Solution {
             }
             sum
         };
-        let mut max = 0;
-        let mut map: HashMap<i32, Vec<i32>> = HashMap::new();
+        let mut max_sum = 0;
+        let mut map: HashMap<i32, i32> = HashMap::new();
         for &el in &nums {
             let digits_sum = sum_digits(el);
-            if let Some(list) = map.get_mut(&digits_sum) {
-                for &cand in list.iter() {
-                    max = max.max(cand + el);
-                }
-                list.push(el);
+            if let Some(entry) = map.get_mut(&digits_sum) {
+                let max_entry = el.max(*entry);
+                max_sum = max_sum.max(*entry + el);
+                *entry = el.max(*entry);
             } else {
-                map.insert(digits_sum, vec![el]);
+                map.insert(digits_sum, el);
             }
         }
-        if max == 0 {
+        if max_sum == 0 {
             return -1;
         }
-        max
+        max_sum
     }
 }
