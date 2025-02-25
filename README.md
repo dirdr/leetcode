@@ -9,6 +9,7 @@ This repository aims to help me find previously implemented algorithms, as well 
 - [ ] Properly learning DP
 - [ ] Properly learning BT
 - [ ] Being not horrible in contests
+- [ ] Finish [Grind 75](https://www.techinterviewhandbook.org/grind75/)
 
 ## Challenge
 Starting from the 2 of August 2024, I will try to solve daily problems for one year straight.
