@@ -11,10 +11,11 @@ This repository aims to help me **find previously implemented algorithms**, as w
 ## Goals
 - [ ] Leetcode tshirt
 - [ ] Properly learning Dynamic programming
-- [ ] Properly learning Back tracking
-- [ ] Being not horrible in contests
+- [ ] Being decent in contests
 - [ ] Finish [Grind 75](https://www.techinterviewhandbook.org/grind75/)
 - [ ] Fnish [AlgoPrep 151](https://docs.google.com/spreadsheets/d/1kyHfGGaLTzWspcqMUUS5Httmip7t8LJB0P-uPrRLGos/edit)
+- [ ] Finish [Blind 75](https://neetcode.io/practice?tab=blind75)
+- [ ] Finish [Neetcode 150](https://neetcode.io/practice?tab=neetcode150)
 
 ## Challenge
 Starting from the 2 of August 2024, I will try to solve daily problems for one year straight.
