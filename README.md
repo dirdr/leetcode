@@ -21,6 +21,7 @@ This repository aims to help me **find previously implemented algorithms**, as w
 ## Challenge
 Starting from the 2 of August 2024, I will try to solve daily problems for one year straight.
 - 16/02/2025 : 200 Days!
+- 27/05/2025 : 300 Days!
 
 ## Useful resources
 - [neetcode roadmap](https://neetcode.io/roadmap)
