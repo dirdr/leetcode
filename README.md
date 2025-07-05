@@ -3,10 +3,6 @@
 ## About
 I first started Leetcode in Java ☕️, as it was my first programming language, I'm now focused on learning Rust so my new solutions are written in that language 🦀,
 
-> [!note]
-> As of march 2025, I started writing solution in python 🐍 for my FAANG preparation,
-> Python is quicker as an interview language, specially with trees and linked lists structures
-
 This repository aims to help me **find previously implemented algorithms**, as well as to **track my progression**
 
 ## Goals
