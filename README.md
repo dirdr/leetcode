@@ -6,7 +6,7 @@ I first started Leetcode in Java ☕️, as it was my first programming language
 This repository aims to help me **find previously implemented algorithms**, as well as to **track my progression**
 
 ## Goals
-- [ ] Leetcode tshirt
+- [X] Leetcode tshirt 06/12/2025
 - [ ] Properly learning Dynamic programming
 - [ ] Being decent in contests
 - [ ] Finish [Grind 75](https://www.techinterviewhandbook.org/grind75/)
@@ -19,6 +19,7 @@ Starting from the 2 of August 2024, I will try to solve daily problems for one y
 - 16/02/2025 : 200 Days!
 - 27/05/2025 : 300 Days!
 - 04/09/2025 : 400 Days!
+- 13/12/2025 : 500 Days!
 
 ## Useful resources
 - [neetcode roadmap](https://neetcode.io/roadmap)
