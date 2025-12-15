@@ -7,8 +7,6 @@ This repository aims to help me **find previously implemented algorithms**, as w
 
 ## Goals
 - [X] Leetcode tshirt 06/12/2025
-- [ ] Properly learning Dynamic programming
-- [ ] Being decent in contests
 - [ ] Finish [Grind 75](https://www.techinterviewhandbook.org/grind75/)
 - [ ] Fnish [AlgoPrep 151](https://docs.google.com/spreadsheets/d/1kyHfGGaLTzWspcqMUUS5Httmip7t8LJB0P-uPrRLGos/edit)
 - [ ] Finish [Blind 75](https://neetcode.io/practice?tab=blind75)
