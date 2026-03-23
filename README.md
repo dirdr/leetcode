@@ -18,6 +18,7 @@ Starting from the 2 of August 2024, I will try to solve daily problems for one y
 - 27/05/2025 : 300 Days!
 - 04/09/2025 : 400 Days!
 - 13/12/2025 : 500 Days!
+- 23/03/2026: 600 Days!
 
 ## Useful resources
 - [neetcode roadmap](https://neetcode.io/roadmap)
