@@ -18,39 +18,21 @@
 // }
 use std::rc::Rc;
 use std::cell::RefCell;
-
-struct Container {
-    size: i32,
-    sum: i32
-}
-
 impl Solution {
     pub fn average_of_subtree(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-        let mut answer = 0;
-        Self::dfs(&root, &mut answer);
-        answer
-    }
-
-    pub fn dfs(root: &Option<Rc<RefCell<TreeNode>>>, answer: &mut i32) -> Container {
-        match root {
-            Some(root) => {
-                let root = root.borrow();
-                let left = Self::dfs(&root.left, answer);
-                let right = Self::dfs(&root.right, answer);
-                let sum = left.sum + right.sum + root.val;
-                let size = left.size + right.size + 1;
-                if (sum as f64 / size as f64).floor() as i32 == root.val {
-                    *answer += 1;
+        fn dfs(root: &Option<Rc<RefCell<TreeNode>>>) -> (i32, i32, i32) {
+            match root {
+                None => (0, 0, 0),
+                Some(node) => {
+                    let node = node.borrow();
+                    let (ls, ld, lc) = dfs(&node.left);
+                    let (rs, rd, rc) = dfs(&node.right);
+                    let average = (ls + rs + node.val) / (ld + rd + 1);
+                    let bonus = if node.val == average { 1 } else { 0 };
+                    (ls + rs + node.val, ld + rd + 1, lc + rc + bonus)
                 }
-                return Container {
-                    size: size,
-                    sum: sum,
-                }
-            }
-            None => Container {
-                size: 0,
-                sum: 0,
             }
         }
+        dfs(&root).2
     }
-} 
+}
