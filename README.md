@@ -19,7 +19,7 @@ Starting from the 2 of August 2024, I will try to solve daily problems for one y
 - 13/12/2025 : 500 Days!
 - 23/03/2026: 600 Days!
 
-> [!info]
+> [!note]
 > Unfortunatly, the streak era is over :(
 
 ## Useful resources
